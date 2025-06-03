@@ -13,7 +13,7 @@ https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
 <body>
     <!-- prodect navbar -->
 
-    
+
     <nav class="bg-green-100 p-3 flex items-center justify-between sticky top-0 shadow-xl z-10">
 
         <h1 class="text-3xl text-black">Greenden</h1>
@@ -49,7 +49,8 @@ https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
 
     <!-- side navbar -->
 
-    <section id="sidenav" class="bg-green-100 fixed z-20 top-0 transition-all duration-1000" style="width: 50%;height: 100vh;right: -50%;">
+    <section id="sidenav" class="bg-green-100 fixed z-20 top-0 transition-all duration-1000"
+        style="width: 50%;height: 100vh;right: -50%;">
 
         <div class="text-right p-5">
             <p id="closenav" class="inline cursor-pointer">X</p>
@@ -73,68 +74,88 @@ https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
 
     <section class="text-center p-4 ">
         <h1 class="text-4xl text-center font-bold p-5">Our products</h1>
-        <input type="text" class="border border-black p-2 m-3" style="width: 80%;">
+        <input id="search" type="text" class="border border-black p-2 m-3" style="width: 80%;">
 
 
-        <div class="grid grid-cols-2 md:grid-cols-4 mt-10 gap-5 text-center">
+        <div id="product-container" class="grid grid-cols-2 md:grid-cols-4 mt-10 gap-5 text-center">
             <div>
-                <img src="./images/bestseller_1.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
-                <h1>Rose Plant</p></h1>
+                <img src="./images/bestseller_1.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2"
+                    alt="">
+                <h1>Campanula</p>
+                </h1>
                 <p>$20</p>
             </div>
 
             <div>
-                <img src="./images/bestseller_2.jpg"class="inline hover:shadow-xl transform hover:-translate-y-2"  alt="">
-                <h1>Rose Plant</p></h1>
+                <img src="./images/bestseller_9.jpg"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+                <h1>Begonia</p>
+                </h1>
                 <p>$20</p>
 
             </div>
 
             <div>
-                <img src="./images/bestseller_3.jpg"class="inline hover:shadow-xl transform hover:-translate-y-2"  alt="">
-                <h1>Rose Plant</p></h1>
+                <img src="./images/bestseller_3.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2"
+                    alt="">
+                <h1>Snake Plant</p>
+                </h1>
                 <p>$20</p>
             </div>
 
             <div>
-                <img src="./images/bestseller_4.jpg"class="inline hover:shadow-xl transform hover:-translate-y-2"  alt="">
-                <h1>Rose Plant</p></h1>
+                <img src="./images/bestseller_4.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2"
+                    alt="">
+                <h1>Amaryllis</p>
+                </h1>
                 <p>$20</p>
             </div>
 
             <div>
-                <img src="./images/bestseller_5.jpg"class="inline hover:shadow-xl transform hover:-translate-y-2 mt-7"  alt="">
-                <h1>Rose Plant</p></h1>
+                <img src="./images/bestseller_5.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 mt-7"
+                    alt="">
+                <h1>Mixed Bouquet</p>
+                </h1>
                 <p>$20</p>
             </div>
 
             <div>
-                <img src="./images/bestseller_6.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 mt-7" alt="">
-                <h1>Rose Plant</p></h1>
+                <img src="./images/bestseller_6.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 mt-7"
+                    alt="">
+                <h1>Faux Decorative Plant</p>
+                </h1>
                 <p>$20</p>
             </div>
 
             <div>
-                <img src="./images/bestseller_7.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 mt-7" alt="">
-                <h1>Rose Plant</p></h1>
+                <img src="./images/bestseller_7.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 mt-7"
+                    alt="">
+                <h1>Orichid</p>
+                </h1>
                 <p>$20</p>
             </div>
 
             <div>
-                <img src="./images/bestseller_8.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 mt-7" alt="">
-                <h1>Rose Plant</p></h1>
+                <img src="./images/bestseller_8.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 mt-7"
+                    alt="">
+                <h1>Rose Plant</p>
+                </h1>
                 <p>$20</p>
             </div>
 
             <div>
-                <img src="./images/bestseller_9.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 mt-7" alt="">
-                <h1>Rose Plant</p></h1>
+                <img src="./images/bestseller_9.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 mt-7"
+                    alt="">
+                <h1>Begonia</p>
+                </h1>
                 <p>$20</p>
             </div>
 
             <div>
-                <img src="./images/bestseller_10.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 mt-7" alt="">
-                <h1>Rose Plant</p></h1>
+                <img src="./images/bestseller_10.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2 mt-7"
+                    alt="">
+                <h1>Campanula</p>
+                </h1>
                 <p>$20</p>
             </div>
         </div>
@@ -143,7 +164,7 @@ https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
 
 
 
-      <!-- footer -->
+    <!-- footer -->
 
     <section class="bg-green-100 p-10 flex flex-col gap-5 mt-5">
         <h1 class="text-4xl font-bold">Greenden</h1>
@@ -156,23 +177,52 @@ https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
 
     <script>
 
-    // selecting side navbar,menuicon
+        // selecting side navbar,menuicon
 
-var sidenav = document.getElementById("sidenav")
-var menuicon = document.getElementById("menuicon")
-var closenav = document.getElementById("closenav")
+        var sidenav = document.getElementById("sidenav")
+        var menuicon = document.getElementById("menuicon")
+        var closenav = document.getElementById("closenav")
 
 
 
-menuicon.addEventListener("click", function () {
-    sidenav.style.right = "0";
-})
+        menuicon.addEventListener("click", function () {
+            sidenav.style.right = "0";
+        })
 
-closenav.addEventListener("click",function(){
-    sidenav.style.right = "-50%";
-})
+        closenav.addEventListener("click", function () {
+            sidenav.style.right = "-50%";
+        })
 
-</script>
+
+        // product search functionality
+
+        var productContainer = document.getElementById("product-container")
+        var search = document.getElementById("search")
+        var prodectlist = productContainer.querySelectorAll("div")
+
+        search.addEventListener("keyup", function () {
+            var enteredValue = event.target.value.toUpperCase()
+
+
+            for (count = 0; count<prodectlist.length; count = count+1) {
+                var productname = prodectlist[count].querySelector("h1").textContent
+
+                if (productname.toUpperCase().indexOf(enteredValue)<0) {
+
+                    prodectlist[count].style.display = "none"
+
+                }
+                else {
+                    prodectlist[count].style.display = "block"
+                }
+            }
+        })
+
+
+
+
+
+    </script>
 
 </body>
 
